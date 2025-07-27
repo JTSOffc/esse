@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+  
+
+    
+    .IMG_principal img {
+    width: 250px;   /* diminui a largura da imagem */
+    height: auto;   /* mantém a proporção */
+    }
+    
+.IMG_principal {
+    width: 300px;
+    height: 550px;
+    border-style: solid;
+    border-color: #ffffff;
+    /* Removed invalid property 'borde-height' */
+    border-width: 1px 4px 50px 4px; /* topo, direita, baixo, esquerda */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin: 200px auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.IMG_principal img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 50px;         /* espaço entre imagem e texto */
+}
+
+.IMG_principal h1 {
+    font-size: 1.2rem; /* diminui o tamanho da letra do título */
+    text-align: center;
+    margin-bottom: 5px;
+    color: #222;
+
+}
+    .fundo_ext {
+    background: #e0f7fa; /* azul bem fraquinho */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* garante que fique atrás da caixa central */
+}
+span {
+ font-size: 25px;
+}
+
+.IMG_principal h1,
+.IMG_principal p,
+.IMG_principal span {
+    margin-left: 26px; /* aumenta o espaço à esquerda do texto */
+    text-align: left;  /* opcional: alinha o texto à esquerda */
+}
+
+p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+.IMG_principal img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 16px; /* diminui o espaço entre a imagem e o h1 */
+}
+.IMG_principal img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 20px; /* borda arredondada na imagem */
+}
+.IMG_principal img {
+    width: 270px;        /* aumenta a largura da imagem */
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 20px;
+}
+.IMG_principal h1,
+.IMG_principal p {
+    text-align: center;   /* centraliza o texto */
+    margin-left: 0;       /* remove margem à esquerda */
+}
+.IMG_principal h1,
+.IMG_principal p,
+.IMG_principal span {
+    margin-left: 0; /* ou remova esta linha */
+    text-align: center;
+}
